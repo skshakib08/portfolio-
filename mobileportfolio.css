@@ -1,0 +1,142 @@
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 80px 0px;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-start;
+}
+section div {
+    width: 90%;
+}
+.right{
+   margin-left: 0px;
+}
+.topnav{
+   height: 80px;
+}
+.topnav ul li{
+    margin: 0px 10px; 
+}
+.topnav ul {
+    display: flex;
+    justify-content: center;
+    margin-left: -35px;
+}
+.info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.leftsection {
+    font-size: 2.8rem;
+    
+}
+#left_right > div {
+    width: 90%;
+}
+.rightsection img {
+    width: 300px;
+    height: 400px;
+    
+}
+
+
+#lastsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px;
+}
+.about h1{
+   padding: 10px; 
+}
+
+.contactleft {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.education {
+     display: flex;
+     flex-direction: column;
+     padding-left: 5px;
+}
+.contactright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    margin: 40px 0px;
+    padding-top: 0px;
+    
+}
+#lastsection input {
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    width: 250px;
+}
+#lastsection textarea {
+    background-color:white;
+    border-radius: 5px;
+    margin: 10px;
+    height: 250px;
+    width: 260px;
+}
+
+
+
+
+
+
+
+.pro {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.pro1 h1 {
+    margin-left: 70px;
+}
+.pro2 h1 {
+    margin-left: 70px;
+}
+.pro1 img {
+    height: 300px;
+    width: 300px;
+}
+.pro2 img {
+    height: 300px;
+    width: 300px;
+}
+.pro1 button { 
+    margin-left: 90px;
+}
+.pro2 button { 
+    margin-left: 90px;
+}
+
+
+
+
+

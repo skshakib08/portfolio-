@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="mobileportfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+    
+</head>
+<body >
+    <header>
+        <div class="topnav" id="nav">
+            <div class="left"><i><span class="red">S</span>HAKIB'S PORTFOLIO</i></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="#container">ABOUT</a></li>
+                    <li><a href="#project">PROJECTS</a></li>
+                    <li><a href="#lastsection">CONTACT </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="left_right">
+        <div class="leftsection">
+            Hi this is <span class="size">shakib</span>
+            <div>and i am a passionate</div>
+           
+            <span id="element"></span>
+        </div>
+        <div class="rightsection">
+            <img src="img/developer.png" alt="img">
+        </div>
+    </section>
+    <div class="line"><hr></div>
+        <secondsection id="container">
+            <div class="about">
+                <h1>About</h1>
+               <p>Greetings! I'm Shakib Shaukat Shaikh, a dedicated and enthusiastic computer science professional with a passion for creating innovative solutions through technology. Welcome to my portfolio, where I showcase my projects and skills that reflect my commitment to excellence and continuous learning.<br><br>
+
+                Career Objective:<br><br>
+                My aspiration is to make a meaningful impact in the world of technology. I am driven by the desire to contribute my skills and creativity to an organization that offers exciting challenges, fosters a culture of growth, and encourages exploration of new opportunities. I strive to excel in my chosen field and continuously push the boundaries of what's possible through technology</p>
+            </div>
+            <section class="info">
+                <div class="skills">
+                    <p><span class="newred">Skills</span></p><br>
+                    <ul>                       
+                        <li><span class="purple"> Operating System:</span><br><p> Windows 10/11</p></li><br>
+                        <li><span class="purple">Programming Software:</span><br><p>Visual Studio</p></li><br>
+                        <li><span class="purple"> Programming Language:</span><br><p>JavaScripts</p></li><br>
+                        <li><span class="purple"> Scripting Languages:</span><br><p>HTML,CSS,Bootstrap,Angular</p></li><br>
+                    </ul>
+                </div>
+                <div class="education">
+                    <p><span class="newred">Education</span></p><br>
+                    <ul>
+                        <li><span class="purple">2022</span><br><p>Mcs computer science From Azam Campus, Pune.</p></li><br>
+                        <li><span class="purple">2020</span><br><p>Bcs computer science From Azam  Campus, Pune.</p></li>
+                    </ul>
+                </div>
+            </section>
+        </secondsection>   
+        <div class="line"><hr></div>
+        <section id="project">
+            <div class="projects">
+                <div class="projects_in">
+                    <h1>𝐏𝐫𝐨𝐣𝐞𝐜𝐭</h1>
+                </div>
+                <div class="pro">
+                    <div class="pro1">
+                        <h1>Online food meal</h1>
+                        <img src="/img/Screenshot (1).png" alt="">
+                       <a href="/project.html"><button>More about</button></a> 
+                    </div>
+                    <div class="pro2">
+                        <h1>Car rental web</h1>
+                        <img src="/img/Screenshot (2).png" alt="">
+                        <a href="/project2.html"><button>More about</button></a> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="line"><hr></div>
+        <lastsection id="lastsection">
+            <div class="contactleft">
+                <h1>Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>shakibshaikh1999@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7350454644</p>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+               <div class="resume"><a id="btn" href="/RESUME.pdf" download><button>Download Resume</button></a></div> 
+            </div>
+            <div class="contactright">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea name="massage" rows="5" placeholder="Your Massage"></textarea>
+               <div class="Submit"><button onclick="submit()">Submit</button></div> 
+            </div>
+        </lastsection>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['application developer and', ' web developer'],
+          typeSpeed: 80,
+         });       
+      </script>
+      <script src="/script.js"></script>
+</body>
+</html>

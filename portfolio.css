@@ -1,0 +1,323 @@
+*{
+    color: rgb(253, 251, 251);
+}
+body {
+    margin: 0;
+    background-color: rgb(111, 110, 123);
+}
+
+    .topnav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(49, 46, 46);
+        height: 60px;
+      
+    }
+    
+    .red{
+        color: #e21c34;
+        font-size: 2.05rem;
+    }
+    .newred{
+        color:rgb(250, 248, 248);
+        font-size: 1.3rem;
+    }
+    
+    .topnav ul{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .topnav ul li{
+        list-style: none;
+        margin: 0px 20px;
+    }
+    
+    .topnav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .topnav ul li a:hover{
+        color: red;
+        font-size: 1.02rem;
+    }
+    .left{
+        font-size: 1.4rem;
+    }
+    
+    .right{
+        margin-left: 500px;
+    }
+    
+    #left_right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+    }
+
+    #left_right > div{
+        width: 30%;
+    }
+
+    .leftsection{
+        font-size: 2.8rem;
+        margin: 120px 0px;
+    }
+
+    .rightsection img{
+       width: 400px;
+       height: 400px;
+       margin-top: 10px;
+    }
+
+    .purple{
+        color: #e21c34;
+        font-size: 20px;
+    }
+    .size{
+        color: #e21c34;
+        font-size: 45px;
+    }
+    #container{
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .about{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        margin: 30px 105px;
+    }
+    .about h1{
+        
+        margin-bottom: 40px;
+    }
+    .about p{
+        font-size: 20px;
+    }
+    .info{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: column; 
+    }
+    .education{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills p{
+        font-size: 30px; 
+    }
+    .skills ul p{
+        font-size: 20px; 
+    }
+    .education p{
+        font-size: 30px;
+    }
+    .education ul p{
+        font-size: 20px;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }   
+    .projects_in{
+      
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }  
+    .projects_in h1{
+      font-size: 40px;
+      color: rgb(251, 248, 248);
+    }  
+    .pro{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .pro1{
+       
+        height: 500px;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .pro2{
+       
+        height: 500px;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: inset rgba(255, 255, 255, 0.8);
+
+        
+    }
+    .pro1 img{
+        height: 300px;
+        width: 500px;
+        border: 0.5rem solid rgb(253, 251, 251);
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.8);
+        
+    }
+    .pro2 img{
+        height: 300px;
+        width: 500px;
+        border: 0.5rem solid rgb(253, 251, 251);
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.8);
+        
+    }
+    .pro1 h1{
+      margin-left: 150px;  
+    }
+    .pro2 h1{ 
+      margin-left: 175px;    
+    }
+    .pro1 button{
+        height: 30px;
+        width: 150px; 
+        margin-left: 165px; 
+        margin-top:30px;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+    }
+    .pro2 button{ 
+        height: 30px;
+        width: 150px;
+        margin-left: 180px; 
+        margin-top:30px;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;  
+    }
+    #lastsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .contactleft{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+    }
+    .resume{
+        padding: 25px;
+
+    }
+    
+    .contactleft h1{
+        margin-bottom: 40px; 
+        margin-left: 40px;  
+        font-size: 40px;
+       
+    }
+    .contactleft p{
+        margin: 10px 0px; 
+        font-size: 20px;
+         
+    }
+   
+    .fa-solid{
+        margin: 0px 10px;
+       
+    }
+
+    .icon{
+        display: flex;
+        margin: 10px 0px;
+    }
+    .icon a{
+        justify-content: center;
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        box-shadow: 0 0 5px 5px rgb(44, 44, 43);
+        border-radius: 50%;
+        background-color: rgb(103, 103, 99);
+    }
+
+    .fa-brands{
+        font-size: 30px;
+        line-height: 100px;
+        padding-top:  10px;
+    }
+    
+    
+    .contactright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        height: 350px;
+        margin: 80px 0px;
+        border-radius: 10px;
+        padding-top: 100px;
+    }
+    
+    
+    #lastsection input{
+        background-color: rgb(249, 244, 244);
+        border-radius: 5px;
+        margin: 10px;
+        padding: 5px;
+        width: 350px;
+       
+    }
+
+    #lastsection textarea{
+        background-color: rgb(251, 248, 248);
+        border-radius: 5px;
+        margin: 10px;
+        height: 100px;
+        width: 360px; 
+    }
+    #lastsection button{
+        color:black;
+        height: 30px;
+        width: 130px;
+        border-radius: 10%;
+        background-color: white;
+    }
+    
+    #lastsection button:hover{
+        
+        cursor: pointer;
+        color: rgb(187, 94, 94);      
+    }
+    .Submit{
+        margin-top: 40px;
+    }
+    .line{
+        width: 90vw;
+        margin: auto;
+    }
+  
+
+
+
+
+
+
+
+
+
+    
